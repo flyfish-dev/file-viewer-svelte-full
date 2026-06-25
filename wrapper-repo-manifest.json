@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-25T05:40:57.529Z",
+  "sourceBranch": "main",
+  "sourceCommit": "2b06ee57",
+  "organization": "flyfish-dev",
+  "framework": "Svelte Full",
+  "packageName": "@file-viewer/svelte-full",
+  "packageVersion": "2.1.3",
+  "repository": "file-viewer-svelte-full",
+  "github": "https://github.com/flyfish-dev/file-viewer-svelte-full",
+  "gitee": "https://gitee.com/flyfish-dev/file-viewer-svelte-full",
+  "entryFormats": [
+    "svelte-component",
+    "esm",
+    "types"
+  ],
+  "historicalPackages": [],
+  "sourcePackageDir": "packages/components/svelte-full",
+  "corePackage": "@file-viewer/core",
+  "coreSourceVisibility": "public-source"
+}
