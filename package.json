@@ -1,6 +1,6 @@
 {
   "name": "@file-viewer/svelte-full",
-  "version": "2.1.16",
+  "version": "2.1.18",
   "private": false,
   "type": "module",
   "description": "Full Svelte package for Flyfish File Viewer with the complete preset enabled by default.",
@@ -36,7 +36,7 @@
   },
   "funding": {
     "type": "individual",
-    "url": "https://dev.flyfish.group/shop"
+    "url": "https://dev.flyfish.group/donate?source=npm"
   },
   "types": "./src/FileViewer.svelte.d.ts",
   "exports": {
@@ -74,8 +74,8 @@
     "svelte": ">=3.59 <6"
   },
   "dependencies": {
-    "@file-viewer/preset-all": "^2.1.16",
-    "@file-viewer/svelte": "^2.1.16"
+    "@file-viewer/preset-all": "^2.1.18",
+    "@file-viewer/svelte": "^2.1.18"
   },
   "devDependencies": {
     "svelte": "^5.46.0",
