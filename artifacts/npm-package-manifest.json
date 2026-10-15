@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
   "mode": "runtime-only",
-  "sourceCommit": "d20dc22c19a9101647a8198f46dc4037277da7cc",
+  "sourceCommit": "75abb46eea1786fb494d942ae4341191e524e975",
   "aggregateRelease": {
     "repository": "flyfish-dev/file-viewer",
-    "tag": "v3.2.0",
-    "commit": "8cf8e2795300ada3bb27a090c786bdf2d0211ae4"
+    "tag": "v3.2.1",
+    "commit": "d466af1af51babb6d37bbf8db715c5497a88a2a1"
   },
   "package": {
     "packageName": "@file-viewer/svelte-full",
-    "version": "3.2.0",
-    "tarball": "file-viewer-svelte-full-3.2.0.tgz",
-    "tarballSize": 8035,
-    "sha256": "bcd48bee9a576d67f157df1cae3a6e4074a8b932648295f047c453010889bbc3",
+    "version": "3.2.1",
+    "tarball": "file-viewer-svelte-full-3.2.1.tgz",
+    "tarballSize": 8037,
+    "sha256": "1e2cfd741929261d98ba3571c50e10a77b66e781e1a0faf22a6b83acbb2c7e8d",
     "fileCount": 13,
-    "integrity": "sha512-MTi/5q54J7/DBRQ9NwbZbSntebGE7w1rCwA0oH0Uzbp58T6qIYZMMiU9oo7S04brlJlP2cgPcoaELfpzB0vaQw==",
+    "integrity": "sha512-vdRtWj6lzxloJ4AKjooJnK5fHiR5w48MB0ahUF4LZgpc8LpmCgdMxmNhbDBj/7Ti3NQvD1sgjloJAf8QB7+pJg==",
     "license": "Apache-2.0",
     "releaseArtifact": {
       "includeTarball": true
