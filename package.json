@@ -1,0 +1,101 @@
+{
+  "name": "@file-viewer/svelte-full",
+  "version": "3.3.1",
+  "private": false,
+  "type": "module",
+  "description": "Browser-native file preview for Svelte with the Full renderer preset and self-hosted runtime assets.",
+  "keywords": [
+    "file-viewer",
+    "document-preview",
+    "svelte",
+    "sveltekit",
+    "full-preset",
+    "office-preview",
+    "cad-viewer",
+    "document-viewer",
+    "file-preview"
+  ],
+  "svelte": "./dist/FileViewer.client.js",
+  "main": "./dist/FileViewer.client.js",
+  "module": "./dist/FileViewer.client.js",
+  "bin": {
+    "file-viewer-copy-assets": "./scripts/copy-assets.mjs"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "author": {
+    "name": "Yu Wang",
+    "email": "admin@flyfish.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flyfish-dev/file-viewer-svelte-full.git"
+  },
+  "homepage": "https://github.com/flyfish-dev/file-viewer-svelte-full",
+  "bugs": {
+    "url": "https://github.com/flyfish-dev/file-viewer-svelte-full/issues"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://dev.flyfish.group/donate?source=npm"
+  },
+  "types": "./dist/runtime-types.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/runtime-types.d.ts",
+      "svelte": {
+        "browser": "./dist/FileViewer.client.js",
+        "node": "./dist/FileViewer.server.js",
+        "default": "./dist/FileViewer.client.js"
+      },
+      "browser": "./dist/FileViewer.client.js",
+      "node": "./dist/FileViewer.server.js",
+      "import": "./dist/FileViewer.client.js",
+      "default": "./dist/FileViewer.client.js"
+    },
+    "./action": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./controller": {
+      "types": "./dist/controller.d.ts",
+      "import": "./dist/controller.js",
+      "default": "./dist/controller.js"
+    },
+    "./types": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "scripts/copy-assets.mjs",
+    "README.md",
+    "README.en.md",
+    "README.zh-CN.md"
+  ],
+  "scripts": {
+    "build": "tsc -b tsconfig.json && node scripts/build-support/build-svelte-runtime.mjs --package-root .",
+    "type-check": "tsc -b tsconfig.json"
+  },
+  "peerDependencies": {
+    "svelte": ">=3.59 <6"
+  },
+  "dependencies": {
+    "@file-viewer/preset-all": "3.3.1",
+    "@file-viewer/svelte": "3.3.1",
+    "file-viewer-copy-assets": "3.3.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "svelte": "^5.57.0",
+    "typescript": "^6.0.3"
+  },
+  "license": "Apache-2.0",
+  "packageManager": "pnpm@11.0.9"
+}
