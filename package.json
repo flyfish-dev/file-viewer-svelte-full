@@ -1,6 +1,6 @@
 {
   "name": "@file-viewer/svelte-full",
-  "version": "3.3.1",
+  "version": "3.3.3",
   "private": false,
   "type": "module",
   "description": "Browser-native file preview for Svelte with the Full renderer preset and self-hosted runtime assets.",
@@ -87,13 +87,13 @@
     "svelte": ">=3.59 <6"
   },
   "dependencies": {
-    "@file-viewer/preset-all": "3.3.1",
-    "@file-viewer/svelte": "3.3.1",
-    "file-viewer-copy-assets": "3.3.1"
+    "@file-viewer/preset-all": "3.3.3",
+    "@file-viewer/svelte": "3.3.3",
+    "file-viewer-copy-assets": "3.3.3"
   },
   "devDependencies": {
     "esbuild": "0.28.2",
-    "svelte": "^5.57.0",
+    "svelte": "^5.57.3",
     "typescript": "^6.0.3"
   },
   "license": "Apache-2.0",
